@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icon_fonts/icomoon.eot?fr45uh');
+  src:  url('../fonts/icon_fonts/icomoon.eot?fr45uh#iefix') format('embedded-opentype'),
+    url('../fonts/icon_fonts/icomoon.ttf?fr45uh') format('truetype'),
+    url('../fonts/icon_fonts/icomoon.woff?fr45uh') format('woff'),
+    url('../fonts/icon_fonts/icomoon.svg?fr45uh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-circle:before {
+  content: "\e900";
+}
+.icon-comments:before {
+  content: "\e901";
+}
+.icon-drop:before {
+  content: "\e902";
+}
+.icon-radio-button:before {
+  content: "\e903";
+}
+.icon-arrow-circle:before {
+  content: "\ea41";
+}
